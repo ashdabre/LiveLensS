@@ -1,0 +1,20 @@
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    environment:
+      BACKEND_URL: "http://backend:5001/recent"
+      SIGNALING_URL: "ws://backend:4000"   # backend also runs signaling
+
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/app
+    ports:
+      - "5001:5001"   # Python backend
+      - "4000:4000"   # Signaling server
+    environment:
+      PYTHONUNBUFFERED: "1"
