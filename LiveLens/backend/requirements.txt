@@ -1,0 +1,12 @@
+﻿aiohttp
+numpy
+Pillow
+onnxruntime
+torch
+seaborn
+flask
+flask-cors
+uvicorn
+fastapi
+pydantic
+aiohttp

@@ -1,0 +1,13 @@
+{
+  "name": "webrtc-vlm-signaling",
+  "version": "1.0.0",
+  "description": "Simple WS signaling for webrtc demo",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/signaling_server.js"
+  },
+  "author": "Ashal",
+  "dependencies": {
+    "ws": "^8.12.0"
+  }
+}
