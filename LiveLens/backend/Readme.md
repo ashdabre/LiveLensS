@@ -34,7 +34,7 @@ pip install -r requirements.txt
 python app.py
 ```
 
-or to ease everything up simply fetc containers from docker and run the build commds the frontend and bacjkend will execute simultaenously
+or to ease everything up simply fetch containers from docker and run the build commands the frontend and backend will execute simultaenously
 
 ```bash
 docker-compose up --build
