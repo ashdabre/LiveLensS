@@ -8,7 +8,7 @@ LiveLensS is a WebRTC-based vision intelligence project that enables real-time c
 - Frontend and backend integration
 
   ```markdown
-# Real-Time Multi-Object Detection with WebRTC + ONNX
+### Real-Time Multi-Object Detection with WebRTC + ONNX
 
 This project demonstrates a **real-time multi-object detection system** where:
 - A **phone streams live video** via WebRTC.
@@ -21,7 +21,7 @@ Bounding boxes are overlaid in near real-time, and performance metrics are logge
 
 ---
 
-## 🏗 System Architecture
+##  System Architecture
 - **Frontend (Browser/Phone)**  
   Handles video capture, rendering, and inference visualization.  
 - **Backend (Python)**  
